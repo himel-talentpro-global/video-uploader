@@ -20,6 +20,7 @@ const SideBar = ()=> {
             <Button  click={()=>handleClick(router)} className='flex justify-center w-40 mx-auto mt-2'>Upload Video</Button>
             <ul className="w-40 mx-auto mt-10 hover:text-blue-700">
                 <li><Link href="/videos" className={currentPath=='/videos'?'active:text-blue-700':'text-slate-700'}>My Videos</Link></li>
+                <li><Link href="/fitness" className={currentPath=='/fitness'?'active:text-blue-700':'text-slate-700'}>Fitness</Link></li>
             </ul>
         </section>
         </aside>
